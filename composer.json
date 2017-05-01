@@ -1,7 +1,6 @@
 {
     "name": "perftools/xhgui",
     "description": "A web based interface for viewing profile data collected by XHProf.",
-    "version": "0.1",
     "license": "MIT",
     "autoload": {
         "psr-0": {
@@ -10,10 +9,10 @@
     },
     "require": {
         "php": ">=5.3.0",
-        "slim/slim": "2.3.1",
-        "slim/views": "0.1.0",
-        "twig/twig": "^1.13.1",
-        "pimple/pimple": "1.0.2"
+        "slim/slim": "^2.6.3",
+        "slim/views": "^0.1.0",
+        "twig/twig": "~1.17",
+        "pimple/pimple": "^1.0.2"
     },
     "require-dev": {
         "alcaeus/mongo-php-adapter": "^1.0",
